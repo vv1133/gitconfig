@@ -4,8 +4,8 @@ Any file which matches the shell glob _* will be linked into $HOME as a symlink 
 
 For example:
 
-`_bashrc`
+`_gitconfig`
 
 becomes
 
-`${HOME}/.bashrc`
+`${HOME}/.gitconfig`
