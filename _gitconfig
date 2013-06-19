@@ -1,0 +1,30 @@
+[user]
+    email = zhengdi_vv1133@foxmail.com
+    name = vv1133
+
+[core]
+    fileMode = false
+    excludesfile = ${HOME}/.gitignore
+    editor = vim 
+
+[diff]
+    renames = copy
+    tool = vimdiff
+
+[merge]
+    tool = vimdiff
+
+[rerere]
+    enabled = true
+
+[color]
+    ui = auto
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    ls = ls-files
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<
+%an>%Creset' --abbrev-commit --
