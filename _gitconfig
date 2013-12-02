@@ -4,7 +4,7 @@
 
 [core]
     fileMode = false
-    excludesfile = ${HOME}/.gitignore
+    excludesfile = ~/.gitignore
     editor = vim 
 
 [diff]
