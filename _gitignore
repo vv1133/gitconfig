@@ -43,3 +43,8 @@ TAGS
 *.PS
 *.SearchResults
 *.WK3
+
+#linux kernel
+*.mod.c
+modules.order
+Module.symvers
