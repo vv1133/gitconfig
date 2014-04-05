@@ -45,6 +45,7 @@ TAGS
 *.WK3
 
 #linux kernel
+*.ko
 *.mod.c
 modules.order
 Module.symvers
