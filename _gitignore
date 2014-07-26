@@ -21,6 +21,7 @@
 *.bin
 *.gz
 *.log
+*.pyc
 
 #
 # Top-level generic files
