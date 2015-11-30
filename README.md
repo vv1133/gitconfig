@@ -1,11 +1,18 @@
-##Creating source files##
+# Install #
 
-Any file which matches the shell glob _* will be linked into $HOME as a symlink with the first _ replaced with a .
+1. clone the repo
 
-For example:
+  `git clone git://github.com/vv1133/gitconfig.git`
 
-`_gitconfig`
+2. rename it:
 
-becomes
+  `mv gitconfig ~/.git`
 
-`${HOME}/.gitconfig`
+3. set up ~/.gitconfig, have a fake .gitconfig in your $HOME
+
+  `ln -s ~/.git/_gitconfig ~/.gitconfig`
+
+4. set up ~/.gitignore, have a fake .gitignore in your $HOME
+
+  `ln -s ~/.git/_gitignore ~/.gitignore`
+
