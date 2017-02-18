@@ -1,9 +1,9 @@
 [user]
-    email = zhengdi_vv1133@foxmail.com
-    name = vv1133
+    email = zhengdi05@foxmail.com
+    name = zhengdi
 
 [core]
-    fileMode = false
+    filemode = true
     excludesfile = ~/.gitignore
     editor = vim 
 
